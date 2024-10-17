@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Prefabs/Resources.meta
+guid: 086c5641d0d2c604da67aa75b3adfd31
+========
+guid: 81e5833143478a24fb29213a45009e1f
+>>>>>>>> enemy-ai:Assets/Scenes/Game.meta
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
