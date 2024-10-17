@@ -296,7 +296,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &1866765374363428293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -330,6 +330,6 @@ MonoBehaviour:
   tree: {fileID: 21300000, guid: 7354ef2e44ef44b2bb38c55995739693, type: 3}
   rock: {fileID: 21300000, guid: 400e094024b5a41bb8c1c5caa7b9c2e4, type: 3}
   worldSpaceCanvas: {fileID: 8098781567899309322}
-  moveDuration: 2
+  moveDuration: 1
   fixedCanvasScale: {x: 0.3, y: 0.3, z: 0.3}
   fixedDistanceFromCamera: 6.58

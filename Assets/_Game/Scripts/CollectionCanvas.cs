@@ -11,7 +11,7 @@ public class CollectionCanvas : MonoBehaviour
     [SerializeField] private Sprite tree;
     [SerializeField] private Sprite rock;
     [SerializeField] private Canvas worldSpaceCanvas; // Assign the canvas in the inspector or dynamically
-    [SerializeField] private float moveDuration = 2f; // Duration of the movement in seconds
+    [SerializeField] private float moveDuration = 1f; // Duration of the movement in seconds
 
     private Vector3 startPosition;
     private Vector3 targetPosition;
@@ -33,8 +33,6 @@ public class CollectionCanvas : MonoBehaviour
 
         instantiatedCanvas = this.worldSpaceCanvas;
         startPosition = worldSpaceCanvas.transform.position; 
-        targetPosition = GetTopLeftCorner();
-        
         instantiatedCanvas.transform.localScale = fixedCanvasScale;
         
     }
@@ -47,6 +45,7 @@ public class CollectionCanvas : MonoBehaviour
 
     void Update()
     {
+        targetPosition = GetTopLeftCorner();
         // Move the canvas over time
         if (elapsedTime < moveDuration)
         {
